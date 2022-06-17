@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="camila romano">
+	<title>Camila Romano</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<nav class="botonera">
+			<a href="index.html">Inicio</a>
+			<a href="sobremi.html">Sobre mi</a>
+			<a href="galeria.html" target="_self">Galer&iacute;a</a>
+			<a href="contacto.html" target="_self">Contacto</a>
+		</nav>
+	</header>
+	<main>
+		<div class="container-contacto">
+			<h2 class="titulo-form">Contacto</h2>
+			<section class="contenedor-form">
+				<form method="post" action="mailto:camilaaylenromano@gmail.com?subject=Email formulario" target="_blank" enctype="text/plain" class= "formulario">
+					<div class= "datos-contacto">
+						<label for="Nombre">Nombre</label>
+						<input type="text" name="Nombre" id="nombre" maxlength="40" placeholder="Ingresar nombre completo" required>
+
+						<label for="Email">E-mail</label>
+						<input type="e-mail" name="E-mail" id="e-mail" placeholder="Ingresar e-mail" required>
+
+						<label for="Teléfono">Tel&eacute;fono</label>
+						<input type="tel" name="Teléfono" id="telefono" placeholder="Ingresar número de teléfono">
+
+						<label for="Mensaje">Mensaje</label>
+						<textarea name="mensaje" id="Mensaje" maxlength="150" placeholder="Mensaje..."></textarea>
+						<div>
+							<input type="reset" value="Borrar" class="boton-form">
+							<input type="submit" value="Enviar" class="boton-form">
+						</div>
+					</div>
+				</form>
+					<div class= "miscelanea2">
+						<img src="img/miscelanea1.svg" width="600px" height="auto" alt="Miscelánea"/>	
+					</div>
+			</section>
+		</div>
+		
+	</main>
+
+	<footer class="position">
+		<section id="contacto">
+			<img src="img/contacto.svg" width="17" height="auto" alt="Icono contacto"/>
+			<a href= "tel:+541131381535" target="_blank"> (+54) 1131381535 </a>
+			<img src="img/email.svg" width="16" height="auto" alt="Icono mail"/>
+			<a href="mailto:camilaaylenromano@gmail.com" target="_blank">camilaaylenromano@gmail.com</a>
+			<img src="img/behance.svg" width="18" height="auto" alt="Icono behance"/>
+			<a href="https://www.behance.net/camiromano" target="_blank">Camila Romano</a>
+		</section>
+	</footer>
+</body>
+
+</html>
